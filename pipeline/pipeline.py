@@ -5,7 +5,7 @@ print('argument', sys.argv)
 
 month = int(sys.argv[1])
 
-df = pd.DataFrame({"day": [1,2], "num_of_passenders": [3,4]})
+df = pd.DataFrame({"day": [1,2], "num_of_passengers": [3,4]})
 df["month"] = month
 print(df.head())
 
